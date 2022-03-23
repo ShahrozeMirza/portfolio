@@ -1,0 +1,69 @@
+#experience{
+
+   .timeline-block{
+       position: relative;
+       padding: 30px;
+
+       .timeline-container{
+           position: relative;
+           padding-left: 30px;
+           margin-bottom: 20px;
+
+           &:last-child{
+               margin-bottom: 0;
+           }
+
+           .heading-md{
+               margin: 5px 0;
+               line-height: 1;
+           }
+
+           p{
+               margin-bottom: 0;
+           }
+       }
+
+       span.line{
+           width: 1px;
+           position: absolute;
+           top: 30px;
+           bottom: 30px;
+           left: 30px;
+           background-color: $secondary-clr;
+       }
+   }
+
+   .timeline-block.academics{
+    
+       .timeline-container{
+            &:after{
+                content: "\e902";
+                font-family: 'nav';
+                position: absolute;
+                top: 0;
+                left: -10px;
+                z-index: 1;
+                color: $secondary-clr;
+            
+            }
+       }
+      
+   }
+
+   .timeline-block.experience{
+    
+        .timeline-container{
+            &:after{
+                content: "\e903";
+                font-family: 'nav';
+                position: absolute;
+                top: 0;
+                left: -7px;
+                z-index: 1;
+                color: $secondary-clr;
+            
+            }
+        }
+   
+}
+}

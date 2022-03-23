@@ -1,0 +1,35 @@
+#about{
+    .card-fact{
+        display: flex;
+        align-items: flex-start;
+        color: $primary-clr;
+        line-height: 1;
+
+        i{
+            margin-right: 15px;
+            font-size: 40px;
+            opacity: .4;
+        }
+
+        &-body{
+            flex: 1;
+
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                color: $text-primary;
+                margin-bottom: 0;
+            }
+        }
+
+        &-title{
+            font-size: 30px;
+            font-weight: 500;
+            color: $primary-clr;
+        }
+    }
+
+    em{
+        font-style: normal;
+    }
+}

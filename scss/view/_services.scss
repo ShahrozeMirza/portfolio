@@ -1,0 +1,22 @@
+#services{
+
+    .service-box{
+        text-align: center;
+        padding: 20px;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            transform: translateY(-10px);
+        }
+
+        img{
+            width: 140px;
+            margin-bottom: 15px;
+        }
+
+        p{
+            color: #fff;
+            margin-bottom: 0;
+        }
+    }
+}
