@@ -1,29 +1,29 @@
-const TypeWriter = function(textElem,words,wait = 3000) {
- this.textElem = textElem;
- this.words = words;
- this.txt = '';
- this.wordIndex = 0;
- this.wait = parseInt(wait, 10);
- this.type();
- this.isDeleting = false;
+const TypeWriter = function (textElem, words, wait = 3000) {
+    this.textElem = textElem;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex = 0;
+    this.wait = parseInt(wait, 10);
+    this.type();
+    this.isDeleting = false;
 }
 
 //Type Method
-TypeWriter.prototype.type = function() {
+TypeWriter.prototype.type = function () {
     // Current Index of the Word
     const currentWordIndex = this.wordIndex % this.words.length;
     // Get full text of current word
     const fullText = this.words[currentWordIndex];
 
     // Check if Deleting
-    if(this.isDeleting){
-      // Remove a Character
-      this.txt = fullText.substring(0, this.txt.length - 1);
+    if (this.isDeleting) {
+        // Remove a Character
+        this.txt = fullText.substring(0, this.txt.length - 1);
     }
-    else{
-     // Add a Character   
+    else {
+        // Add a Character   
 
-     this.txt = fullText.substring(0, this.txt.length + 1);
+        this.txt = fullText.substring(0, this.txt.length + 1);
     }
 
     // Insert Text into element
@@ -32,20 +32,20 @@ TypeWriter.prototype.type = function() {
     // Initial Type Speed
     let typeSpeed = 100;
 
-    if(this.isDeleting){
+    if (this.isDeleting) {
         typeSpeed /= 2; //typeSpeed = typeSpeed / 2;
     }
 
     // If word is complete
 
-    if(!this.isDeleting && this.txt === fullText){
+    if (!this.isDeleting && this.txt === fullText) {
         // Make pause at end
         typeSpeed = this.wait;
         this.isDeleting = true;
 
     }
 
-    else if(this.isDeleting && this.txt === ''){
+    else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         // Move to next word
         this.wordIndex++;
@@ -68,7 +68,7 @@ function init() {
 
     //Init TypeWriter
     new TypeWriter(textElement, words, wait);
-    console.log(wait); 
+    console.log(wait);
 }
 
 //Counter Up Plugin
@@ -78,3 +78,23 @@ $('.count').counterUp({
     time: 1000
 });
 
+
+$('.portfolio-wrapper').isotope();
+$('.portfolio-filter-menu button').on('click', function () {
+    $value = $(this).attr('data-name');
+    console.log($value);
+    $('.portfolio-wrapper').isotope({
+        // options
+        itemSelector: '.portfolio-container',
+        layoutMode: 'fitRows',
+        filter: $value
+    });
+
+});
+
+  //Add active Class on selected Button
+
+  $(".portfolio-filter-menu button").on("click",function(){
+    $("button").removeClass("active");
+    $(this).addClass("active");
+})

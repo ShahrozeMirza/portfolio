@@ -1,0 +1,36 @@
+#works{
+    .portfolio-filter-menu{
+        li{
+            display: inline-block;
+            margin-right: 30px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            button{
+                border: 0;
+                background: transparent;
+                font-size: 26px;
+                font-weight: 500;
+                transition: all .3s ease-in-out;
+
+                &.active{
+                    color: $secondary-clr;
+                }
+            }
+        }
+    }
+
+    .portfolio-wrapper{
+
+        .portfolio-container{
+
+            .portfolio-item{
+                background-color: $bg-block-primary;
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    }
+}
