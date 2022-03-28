@@ -2,7 +2,7 @@
     position: relative;
     font-size: 36px;
     color: $primary-clr;
-    font-weight: 600;
+    font-weight: 700;
 
     &::before{
         content: "";
@@ -21,28 +21,24 @@
 
 .heading-regular{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: $primary-clr;
 }
 
 .heading-md{
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 700;
     color: $primary-clr;
 }
 
 .section-paragraph{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: $text-primary;
 }
 
 .text-sm{
     font-size: 14px !important;
-}
-
-.text-light{
-    font-weight: 300 !important;
 }
 
 .text-regular{

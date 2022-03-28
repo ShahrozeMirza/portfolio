@@ -1,9 +1,9 @@
 @import "settings/variables";
 @import "base/base";
-@import "sections/header";
+@import "layout/header";
+@import "layout/main";
 @import "view/home";
 @import "view/about";
-@import "sections/main";
 @import "styles/animations";
 @import "helpers/padding";
 @import "helpers/margins";
@@ -12,10 +12,12 @@
 @import "settings/borders";
 @import "settings/images";
 @import "components/shapes";
+@import "vendor/slickslider";
 @import "helpers/bg-colors";
 @import "base/buttons";
+@import "view/testimonial";
 @import "components/shadows";
 @import "view/services";
 @import "view/experience";
-@import "view/recent-works"
+@import "view/recent-works";
 

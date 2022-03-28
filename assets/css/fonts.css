@@ -1,54 +1,65 @@
 @font-face {
-    font-family: "Fredoka";
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Light.eot');
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Light.woff2') format('woff2'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Light.woff') format('woff'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Fredoka";
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Regular.eot');
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Regular.woff2') format('woff2'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Regular.woff') format('woff'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Regular.ttf') format('truetype');
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-Regular.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Fredoka";
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Medium.eot');
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Medium.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Medium.woff2') format('woff2'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Medium.woff') format('woff'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Medium.ttf') format('truetype');
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-Medium.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-Medium.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Fredoka";
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-SemiBold.eot');
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-SemiBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-SemiBold.woff2') format('woff2'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-SemiBold.woff') format('woff'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-SemiBold.ttf') format('truetype');
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-SemiBold.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-SemiBold.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Fredoka";
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Bold.eot');
-    src: url('../fonts/Fredoka/static/Fredoka/Fredoka-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Bold.woff2') format('woff2'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Bold.woff') format('woff'),
-         url('../fonts/Fredoka/static/Fredoka/Fredoka-Bold.ttf') format('truetype');
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-Bold.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-Bold.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-ExtraBold.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-Black.eot');
+    src: url('../fonts/Montserrat/static/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/static/Montserrat-Black.woff2') format('woff2'),
+         url('../fonts/Montserrat/static/Montserrat-Black.woff') format('woff'),
+         url('../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
 }
