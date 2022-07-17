@@ -126,7 +126,7 @@ main.content {
 
 #home {
   position: relative;
-  background-image: url("/assets/images/bg.jpg");
+  background-image: url("/assets/images/bg-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -377,6 +377,7 @@ section {
   border-radius: 25px;
   line-height: 1;
   text-align: center;
+  border: 0;
 }
 
 .btn-pfolio-primary {
@@ -629,4 +630,16 @@ section {
   border-radius: 20px;
   transition: all 0.3s linear;
   opacity: 0;
+}
+
+#contact .contact-form-left {
+  min-height: 250px;
+  background-image: url("/assets/images/bg-contact.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#contact #contact_form input, #contact #contact_form textarea {
+  border: 0;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

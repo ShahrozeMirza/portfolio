@@ -1,0 +1,15 @@
+#contact{
+    .contact-form-left{
+        min-height: 250px;
+        background-image: url('/assets/images/bg-contact.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #contact_form{
+        input, textarea{
+            border: 0;
+            border-radius: 20px;
+        }
+    }
+}
