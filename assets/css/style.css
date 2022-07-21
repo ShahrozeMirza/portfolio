@@ -126,7 +126,7 @@ main.content {
 
 #home {
   position: relative;
-  background-image: url("/assets/images/bg-home.jpg");
+  background-image: url("../images/bg-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -241,7 +241,7 @@ section {
 }
 .section-heading::before {
   content: "";
-  background-image: url(/assets/images/icons/bg-heading.svg);
+  background-image: url("../images/icons/bg-heading.svg");
   position: absolute;
   top: -8px;
   left: -15px;
@@ -634,7 +634,7 @@ section {
 
 #contact .contact-form-left {
   min-height: 250px;
-  background-image: url("/assets/images/bg-contact.svg");
+  background-image: url("../images/bg-contact.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
